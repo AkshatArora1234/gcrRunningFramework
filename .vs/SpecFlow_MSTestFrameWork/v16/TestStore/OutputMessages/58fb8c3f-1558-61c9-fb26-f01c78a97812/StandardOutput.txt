@@ -1,0 +1,172 @@
+Setup
+Given user navigates to HQ application
+-> done: HQLoginSteps.GivenUserNavigatesToHQApplication() (3.4s)
+When enter valid '<username>', '<hqpassword>'
+-> done: HQLoginSteps.WhenEnterValid("<username>", "<hqpassword>") (0.3s)
+And Clicks on Log In button
+-> done: HQLoginSteps.WhenClicksOnLogInButton() (8.1s)
+When User clicks on the Left Menu
+-> done: ScaleConfiguration.WhenUserClicksOnTheLeftMenu() (8.3s)
+Then menu should be displayed
+-> done: ScaleConfiguration.ThenMenuShouldBeDisplayed() (0.0s)
+When User enters Scale Configuration in the Search Box
+-> done: ScaleConfiguration.WhenUserEntersScaleConfigurationInTheSearchBox() (0.4s)
+Then Scale Configuration Item should be displayed on the Menu
+-> done: ScaleConfiguration.ThenScaleConfigurationItemShouldBeDisplayedOnTheMenu() (0.7s)
+When User Selects the Scale Configuration
+-> done: ScaleConfiguration.WhenUserSelectsTheScaleConfiguration() (0.0s)
+When User clicks on Tab Print Format
+-> done: ScaleConfiguration.WhenUserClicksOnTabPrintFormat() (3.7s)
+Then Print Format Page should be displayed
+-> done: ScaleConfiguration.ThenPrintFormatPageShouldBeDisplayed() (0.0s)
+Then Click on the New Button
+-> done: ScaleConfiguration.ClickonNewButton() (0.9s)
+When User Enters the Code and PrintFormat
+-> done: ScaleConfiguration.WhenUserEntersTheCodeAndPrintFormat() (5.8s)
+When Enter the Value of Print Name Nicebiscits
+-> done: ScaleConfiguration.EnterValueofPrintNameNiceBiscuits() (5.3s)
+When Click on Edit Button
+-> done: ScaleConfiguration.WhenClickOnEditButton() (5.6s)
+When Check the required text boxes
+-> done: ScaleConfiguration.CheckRequiredTextBoxes() (7.8s)
+Then Check the Content Symbol
+-> done: ScaleConfiguration.CheckContentSymbol() (0.0s)
+When Click on Add Section
+-> done: ScaleConfiguration.ClickonAddSections() (3.3s)
+Then Click on Font Dropdown
+-> done: ScaleConfiguration.ClickOnFontDropDowns() (10.1s)
+Then Add Desc to font
+-> done: ScaleConfiguration.AddDescription() (5.3s)
+Then Add another new nutritional Panel to another section latest
+-> done: ScaleConfiguration.ThenAddAnotherNewNutritionalPanelToAnotherSectionLatest() (9.4s)
+Then Save the font with data
+-> done: ScaleConfiguration.SaveFont() (3.3s)
+Then Close the font
+-> done: ScaleConfiguration.CloseFont() (4.1s)
+Then Publish the PF
+-> done: ScaleConfiguration.PublishthePF() (10.4s)
+Then Select the Store
+-> done: ScaleConfiguration.SelectStore() (11.6s)
+When Clear the PrintformatName
+-> done: ScaleConfiguration.ClearThePrintFormatName() (5.1s)
+When Enter the Value of Print Name Nicebiscits
+-> done: ScaleConfiguration.EnterValueofPrintNameNiceBiscuits() (5.3s)
+When Click on Edit Button
+-> done: ScaleConfiguration.WhenClickOnEditButton() (5.4s)
+When Change the PF name to Popcorn, also uncheck 'product life' only.Take any nutritional font and uncheck 'Nutritional' and check 'Enable copy'.
+-> done: ScaleConfiguration.WhenChangeThePFNameToPopcornAlsoUncheckOnly_TakeAnyNutritionalFontAndUncheckAndCheck_("product life", "Nutritional", "Enable copy") (17.5s)
+Then Check the Content Symbol
+-> done: ScaleConfiguration.CheckContentSymbol() (0.1s)
+Then verify user can Change non nutritional section to the nutritional by adding a nutritional font and description
+-> done: ScaleConfiguration.ThenVerifyUserCanChangeNonNutritionalSectionToTheNutritionalByAddingANutritionalFontAndDescription() (15.9s)
+Then Change Nutritional to Non Nutritional
+-> done: ScaleConfiguration.ChangeNutritionaltononnutritional() (15.7s)
+Then Save the font with data
+-> done: ScaleConfiguration.SaveFont() (3.3s)
+Then Close the font
+-> done: ScaleConfiguration.CloseFont() (4.1s)
+When Clear the PrintformatName
+-> done: ScaleConfiguration.ClearThePrintFormatName() (5.1s)
+When Searches for PrintFormat
+-> done: ScaleConfiguration.WhenSearchesForPrintFormat() (5.3s)
+When User clicks on Tab Config page
+-> done: PreRequisite.WhenUserClicksOnTabConfigration() (0.2s)
+When i search the Font by name
+-> done: ScaleConfiguration.WhenISearchFontByName() (8.3s)
+When User Deletes the font added to PF
+-> done: ScaleConfiguration.WhenUserDeletesTheFontAddedToPF() (3.5s)
+When User Verify the font message
+-> done: ScaleConfiguration.UserVerifythefontmessage() (5.2s)
+When User clicks on Tab Print Format
+-> done: ScaleConfiguration.WhenUserClicksOnTabPrintFormat() (0.5s)
+Then Publish the PF
+-> done: ScaleConfiguration.PublishthePF() (10.5s)
+Then Select the Store
+-> done: ScaleConfiguration.SelectStore() (11.5s)
+
+
+TestContext Messages:
+Given user navigates to HQ application
+-> done: HQLoginSteps.GivenUserNavigatesToHQApplication() (3.4s)
+When enter valid '<username>', '<hqpassword>'
+-> done: HQLoginSteps.WhenEnterValid("<username>", "<hqpassword>") (0.3s)
+And Clicks on Log In button
+-> done: HQLoginSteps.WhenClicksOnLogInButton() (8.1s)
+When User clicks on the Left Menu
+-> done: ScaleConfiguration.WhenUserClicksOnTheLeftMenu() (8.3s)
+Then menu should be displayed
+-> done: ScaleConfiguration.ThenMenuShouldBeDisplayed() (0.0s)
+When User enters Scale Configuration in the Search Box
+-> done: ScaleConfiguration.WhenUserEntersScaleConfigurationInTheSearchBox() (0.4s)
+Then Scale Configuration Item should be displayed on the Menu
+-> done: ScaleConfiguration.ThenScaleConfigurationItemShouldBeDisplayedOnTheMenu() (0.7s)
+When User Selects the Scale Configuration
+-> done: ScaleConfiguration.WhenUserSelectsTheScaleConfiguration() (0.0s)
+When User clicks on Tab Print Format
+-> done: ScaleConfiguration.WhenUserClicksOnTabPrintFormat() (3.7s)
+Then Print Format Page should be displayed
+-> done: ScaleConfiguration.ThenPrintFormatPageShouldBeDisplayed() (0.0s)
+Then Click on the New Button
+-> done: ScaleConfiguration.ClickonNewButton() (0.9s)
+When User Enters the Code and PrintFormat
+-> done: ScaleConfiguration.WhenUserEntersTheCodeAndPrintFormat() (5.8s)
+When Enter the Value of Print Name Nicebiscits
+-> done: ScaleConfiguration.EnterValueofPrintNameNiceBiscuits() (5.3s)
+When Click on Edit Button
+-> done: ScaleConfiguration.WhenClickOnEditButton() (5.6s)
+When Check the required text boxes
+-> done: ScaleConfiguration.CheckRequiredTextBoxes() (7.8s)
+Then Check the Content Symbol
+-> done: ScaleConfiguration.CheckContentSymbol() (0.0s)
+When Click on Add Section
+-> done: ScaleConfiguration.ClickonAddSections() (3.3s)
+Then Click on Font Dropdown
+-> done: ScaleConfiguration.ClickOnFontDropDowns() (10.1s)
+Then Add Desc to font
+-> done: ScaleConfiguration.AddDescription() (5.3s)
+Then Add another new nutritional Panel to another section latest
+-> done: ScaleConfiguration.ThenAddAnotherNewNutritionalPanelToAnotherSectionLatest() (9.4s)
+Then Save the font with data
+-> done: ScaleConfiguration.SaveFont() (3.3s)
+Then Close the font
+-> done: ScaleConfiguration.CloseFont() (4.1s)
+Then Publish the PF
+-> done: ScaleConfiguration.PublishthePF() (10.4s)
+Then Select the Store
+-> done: ScaleConfiguration.SelectStore() (11.6s)
+When Clear the PrintformatName
+-> done: ScaleConfiguration.ClearThePrintFormatName() (5.1s)
+When Enter the Value of Print Name Nicebiscits
+-> done: ScaleConfiguration.EnterValueofPrintNameNiceBiscuits() (5.3s)
+When Click on Edit Button
+-> done: ScaleConfiguration.WhenClickOnEditButton() (5.4s)
+When Change the PF name to Popcorn, also uncheck 'product life' only.Take any nutritional font and uncheck 'Nutritional' and check 'Enable copy'.
+-> done: ScaleConfiguration.WhenChangeThePFNameToPopcornAlsoUncheckOnly_TakeAnyNutritionalFontAndUncheckAndCheck_("product life", "Nutritional", "Enable copy") (17.5s)
+Then Check the Content Symbol
+-> done: ScaleConfiguration.CheckContentSymbol() (0.1s)
+Then verify user can Change non nutritional section to the nutritional by adding a nutritional font and description
+-> done: ScaleConfiguration.ThenVerifyUserCanChangeNonNutritionalSectionToTheNutritionalByAddingANutritionalFontAndDescription() (15.9s)
+Then Change Nutritional to Non Nutritional
+-> done: ScaleConfiguration.ChangeNutritionaltononnutritional() (15.7s)
+Then Save the font with data
+-> done: ScaleConfiguration.SaveFont() (3.3s)
+Then Close the font
+-> done: ScaleConfiguration.CloseFont() (4.1s)
+When Clear the PrintformatName
+-> done: ScaleConfiguration.ClearThePrintFormatName() (5.1s)
+When Searches for PrintFormat
+-> done: ScaleConfiguration.WhenSearchesForPrintFormat() (5.3s)
+When User clicks on Tab Config page
+-> done: PreRequisite.WhenUserClicksOnTabConfigration() (0.2s)
+When i search the Font by name
+-> done: ScaleConfiguration.WhenISearchFontByName() (8.3s)
+When User Deletes the font added to PF
+-> done: ScaleConfiguration.WhenUserDeletesTheFontAddedToPF() (3.5s)
+When User Verify the font message
+-> done: ScaleConfiguration.UserVerifythefontmessage() (5.2s)
+When User clicks on Tab Print Format
+-> done: ScaleConfiguration.WhenUserClicksOnTabPrintFormat() (0.5s)
+Then Publish the PF
+-> done: ScaleConfiguration.PublishthePF() (10.5s)
+Then Select the Store
+-> done: ScaleConfiguration.SelectStore() (11.5s)

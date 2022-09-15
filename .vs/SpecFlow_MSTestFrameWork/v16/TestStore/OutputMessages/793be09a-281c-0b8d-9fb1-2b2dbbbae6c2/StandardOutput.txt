@@ -1,0 +1,150 @@
+-> Loading plugin C:\workspace\02-SepGCR\GCRFramework\bin\Debug\netcoreapp3.1\LivingDoc.SpecFlowPlugin.dll
+-> Loading plugin C:\workspace\02-SepGCR\GCRFramework\bin\Debug\netcoreapp3.1\TechTalk.SpecFlow.MSTest.SpecFlowPlugin.dll
+-> Loading plugin C:\workspace\02-SepGCR\GCRFramework\bin\Debug\netcoreapp3.1\SpecFlow_MSTestFrameWork.dll
+-> Using default config
+Setup
+Given user navigates to HQ application
+-> done: HQLoginSteps.GivenUserNavigatesToHQApplication() (3.8s)
+When enter valid '<username>', '<hqpassword>'
+-> done: HQLoginSteps.WhenEnterValid("<username>", "<hqpassword>") (0.4s)
+And Clicks on Log In button
+-> done: HQLoginSteps.WhenClicksOnLogInButton() (8.2s)
+When user create a new batch
+-> done: NewItemCreationSteps.WhenUserCreateANewBatch() (8.2s)
+When User clicks on the Left Menu
+-> done: ScaleConfiguration.WhenUserClicksOnTheLeftMenu() (8.2s)
+Then menu should be displayed
+-> done: ScaleConfiguration.ThenMenuShouldBeDisplayed() (0.0s)
+When User enters Scale Configuration in the Search Box
+-> done: ScaleConfiguration.WhenUserEntersScaleConfigurationInTheSearchBox() (0.5s)
+Then Scale Configuration Item should be displayed on the Menu
+-> done: ScaleConfiguration.ThenScaleConfigurationItemShouldBeDisplayedOnTheMenu() (1.3s)
+When User Selects the Scale Configuration
+-> done: ScaleConfiguration.WhenUserSelectsTheScaleConfiguration() (0.0s)
+Then Scale Configuration Page should be displayed
+-> done: ScaleConfiguration.ThenScaleConfigurationPageShouldBeDisplayed() (0.0s)
+When User clicks on Tab Print Format
+-> done: ScaleConfiguration.WhenUserClicksOnTabPrintFormat() (2.7s)
+Then Click on the New Button
+-> done: ScaleConfiguration.ClickonNewButton() (1.3s)
+When Enter the CodeName and PrintFormat
+-> done: ScaleConfiguration.EnterCodeNameandPrintFormat() (5.9s)
+When Enter the Value of Print Name
+-> done: ScaleConfiguration.EnterValueofsearchcode() (5.5s)
+Then Click on Edit Button
+-> done: ScaleConfiguration.ClickonEditButton() (5.6s)
+When Check the required text boxes
+-> done: ScaleConfiguration.CheckRequiredTextBoxes() (8.0s)
+Then Check the Content Symbol
+-> done: ScaleConfiguration.CheckContentSymbol() (0.0s)
+When Click on Add Section
+-> done: ScaleConfiguration.ClickonAddSections() (3.5s)
+Then Click on Font Dropdown
+-> done: ScaleConfiguration.ClickOnFontDropDowns() (10.1s)
+Then Add Desc to font
+-> done: ScaleConfiguration.AddDescription() (5.6s)
+Then Save the font with data
+-> done: ScaleConfiguration.SaveFont() (3.5s)
+Then Close the font
+-> done: ScaleConfiguration.CloseFont() (4.1s)
+Then Publish the PF
+-> done: ScaleConfiguration.PublishthePF() (10.5s)
+Then Select the Store
+-> done: ScaleConfiguration.SelectStore() (11.7s)
+And user navigates to SR application
+-> done: HQLoginSteps.ThenUserNavigatesToSRApplication() (4.4s)
+When enter valid '<username>', '<hqpassword>'
+-> done: HQLoginSteps.WhenEnterValid("<username>", "<hqpassword>") (0.4s)
+And Clicks on Login button of SR app
+-> done: HQLoginSteps.WhenClicksOnLoginButtonOfSRApp() (12.2s)
+When User clicks on the Left Menu
+-> done: ScaleConfiguration.WhenUserClicksOnTheLeftMenu() (8.3s)
+Then menu should be displayed
+-> done: ScaleConfiguration.ThenMenuShouldBeDisplayed() (0.0s)
+When User enters Scale Configuration in the Search Box
+-> done: ScaleConfiguration.WhenUserEntersScaleConfigurationInTheSearchBox() (0.7s)
+Then Scale Configuration Item should be displayed on the Menu
+-> done: ScaleConfiguration.ThenScaleConfigurationItemShouldBeDisplayedOnTheMenu() (0.7s)
+Then navigate to verify Print Format '12' and 'OpenSansBiscuits'
+-> done: ScaleConfiguration.NavigareandverifyPF("12", "OpenSansBiscuits") (9.8s)
+Then navigate to Tare '45' ,'RicePowder' and '30'
+-> done: ScaleConfiguration.NavigardVerifyTare("45", "RicePowder", "30") (24.1s)
+Then navigate to verify Content Symbol '18' , 'KGTest'and 'KiloGrams'
+-> done: ScaleConfiguration.ThenNavigateToVerifyContentSymbolAnd("18", "KGTest", "KiloGrams") (40.3s)
+Then navigate to verify Preset Messages '47' and 'Contains fat'
+-> error: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@ng-click='ctrl.cancelClicked()']"}
+  (Session info: chrome=104.0.5112.102) (37.0s)
+
+
+TestContext Messages:
+Given user navigates to HQ application
+-> done: HQLoginSteps.GivenUserNavigatesToHQApplication() (3.8s)
+When enter valid '<username>', '<hqpassword>'
+-> done: HQLoginSteps.WhenEnterValid("<username>", "<hqpassword>") (0.4s)
+And Clicks on Log In button
+-> done: HQLoginSteps.WhenClicksOnLogInButton() (8.2s)
+When user create a new batch
+-> done: NewItemCreationSteps.WhenUserCreateANewBatch() (8.2s)
+When User clicks on the Left Menu
+-> done: ScaleConfiguration.WhenUserClicksOnTheLeftMenu() (8.2s)
+Then menu should be displayed
+-> done: ScaleConfiguration.ThenMenuShouldBeDisplayed() (0.0s)
+When User enters Scale Configuration in the Search Box
+-> done: ScaleConfiguration.WhenUserEntersScaleConfigurationInTheSearchBox() (0.5s)
+Then Scale Configuration Item should be displayed on the Menu
+-> done: ScaleConfiguration.ThenScaleConfigurationItemShouldBeDisplayedOnTheMenu() (1.3s)
+When User Selects the Scale Configuration
+-> done: ScaleConfiguration.WhenUserSelectsTheScaleConfiguration() (0.0s)
+Then Scale Configuration Page should be displayed
+-> done: ScaleConfiguration.ThenScaleConfigurationPageShouldBeDisplayed() (0.0s)
+When User clicks on Tab Print Format
+-> done: ScaleConfiguration.WhenUserClicksOnTabPrintFormat() (2.7s)
+Then Click on the New Button
+-> done: ScaleConfiguration.ClickonNewButton() (1.3s)
+When Enter the CodeName and PrintFormat
+-> done: ScaleConfiguration.EnterCodeNameandPrintFormat() (5.9s)
+When Enter the Value of Print Name
+-> done: ScaleConfiguration.EnterValueofsearchcode() (5.5s)
+Then Click on Edit Button
+-> done: ScaleConfiguration.ClickonEditButton() (5.6s)
+When Check the required text boxes
+-> done: ScaleConfiguration.CheckRequiredTextBoxes() (8.0s)
+Then Check the Content Symbol
+-> done: ScaleConfiguration.CheckContentSymbol() (0.0s)
+When Click on Add Section
+-> done: ScaleConfiguration.ClickonAddSections() (3.5s)
+Then Click on Font Dropdown
+-> done: ScaleConfiguration.ClickOnFontDropDowns() (10.1s)
+Then Add Desc to font
+-> done: ScaleConfiguration.AddDescription() (5.6s)
+Then Save the font with data
+-> done: ScaleConfiguration.SaveFont() (3.5s)
+Then Close the font
+-> done: ScaleConfiguration.CloseFont() (4.1s)
+Then Publish the PF
+-> done: ScaleConfiguration.PublishthePF() (10.5s)
+Then Select the Store
+-> done: ScaleConfiguration.SelectStore() (11.7s)
+And user navigates to SR application
+-> done: HQLoginSteps.ThenUserNavigatesToSRApplication() (4.4s)
+When enter valid '<username>', '<hqpassword>'
+-> done: HQLoginSteps.WhenEnterValid("<username>", "<hqpassword>") (0.4s)
+And Clicks on Login button of SR app
+-> done: HQLoginSteps.WhenClicksOnLoginButtonOfSRApp() (12.2s)
+When User clicks on the Left Menu
+-> done: ScaleConfiguration.WhenUserClicksOnTheLeftMenu() (8.3s)
+Then menu should be displayed
+-> done: ScaleConfiguration.ThenMenuShouldBeDisplayed() (0.0s)
+When User enters Scale Configuration in the Search Box
+-> done: ScaleConfiguration.WhenUserEntersScaleConfigurationInTheSearchBox() (0.7s)
+Then Scale Configuration Item should be displayed on the Menu
+-> done: ScaleConfiguration.ThenScaleConfigurationItemShouldBeDisplayedOnTheMenu() (0.7s)
+Then navigate to verify Print Format '12' and 'OpenSansBiscuits'
+-> done: ScaleConfiguration.NavigareandverifyPF("12", "OpenSansBiscuits") (9.8s)
+Then navigate to Tare '45' ,'RicePowder' and '30'
+-> done: ScaleConfiguration.NavigardVerifyTare("45", "RicePowder", "30") (24.1s)
+Then navigate to verify Content Symbol '18' , 'KGTest'and 'KiloGrams'
+-> done: ScaleConfiguration.ThenNavigateToVerifyContentSymbolAnd("18", "KGTest", "KiloGrams") (40.3s)
+Then navigate to verify Preset Messages '47' and 'Contains fat'
+-> error: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@ng-click='ctrl.cancelClicked()']"}
+  (Session info: chrome=104.0.5112.102) (37.0s)

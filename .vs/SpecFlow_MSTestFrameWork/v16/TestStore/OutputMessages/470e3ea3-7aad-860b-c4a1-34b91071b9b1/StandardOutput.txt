@@ -1,0 +1,108 @@
+-> Loading plugin C:\Source\GitCode\GCRFramework\bin\Debug\netcoreapp3.1\LivingDoc.SpecFlowPlugin.dll
+-> Loading plugin C:\Source\GitCode\GCRFramework\bin\Debug\netcoreapp3.1\TechTalk.SpecFlow.MSTest.SpecFlowPlugin.dll
+-> Loading plugin C:\Source\GitCode\GCRFramework\bin\Debug\netcoreapp3.1\SpecFlow_MSTestFrameWork.dll
+-> Using default config
+Setup
+Given user navigates to HQ application
+-> done: HQLoginSteps.GivenUserNavigatesToHQApplication() (9.3s)
+When enter valid '<username>', '<hqpassword>'
+-> done: HQLoginSteps.WhenEnterValid("<username>", "<hqpassword>") (0.3s)
+And Clicks on Log In button
+-> done: HQLoginSteps.WhenClicksOnLogInButton() (8.1s)
+When User clicks on the Left Menu
+-> done: ScaleConfiguration.WhenUserClicksOnTheLeftMenu() (11.8s)
+Then menu should be displayed
+-> done: ScaleConfiguration.ThenMenuShouldBeDisplayed() (0.0s)
+When User enters Scale Configuration in the Search Box
+-> done: ScaleConfiguration.WhenUserEntersScaleConfigurationInTheSearchBox() (0.3s)
+Then Scale Configuration Item should be displayed on the Menu
+-> done: ScaleConfiguration.ThenScaleConfigurationItemShouldBeDisplayedOnTheMenu() (0.6s)
+When User Selects the Scale Configuration
+-> done: ScaleConfiguration.WhenUserSelectsTheScaleConfiguration() (0.0s)
+Then Scale Configuration Page should be displayed
+-> done: ScaleConfiguration.ThenScaleConfigurationPageShouldBeDisplayed() (0.0s)
+When User clicks on Tab Print Format
+-> done: ScaleConfiguration.WhenUserClicksOnTabPrintFormat() (1.8s)
+Then Click on the New Button
+-> done: ScaleConfiguration.ClickonNewButton() (0.3s)
+When user enter new PF code and name and Publish PF
+-> done: ScaleConfiguration.WhenUserEnterNewPFCodeAndNameAndPublishPF() (81.5s)
+And user search and select the printformat code
+-> done: ScaleConfiguration.WhenUserSearchAndSelectThePrintformatCode() (6.5s)
+Then user change the PF code and update the checkboxes
+-> done: ScaleConfiguration.ThenUserChangeThePFCodeAndUpdateTheCheckboxes() (0.2s)
+And verify Content Symbol is automatically checked on checking Content
+-> done: ScaleConfiguration.ThenVerifyContentSymbolIsAutomaticallyCheckedOnCheckingContent() (0.0s)
+And verify user can Change non nutritional section to the nutritional by adding a nutritional font and description
+-> done: ScaleConfiguration.ThenVerifyUserCanChangeNonNutritionalSectionToTheNutritionalByAddingANutritionalFontAndDescription() (15.8s)
+And Add another new nutritional Panel to another section
+-> done: ScaleConfiguration.ThenAddAnotherNewNutritionalPanelToAnotherSection() (19.0s)
+And Save and close the PF
+-> done: ScaleConfiguration.ThenSaveAndCloseThePF() (0.3s)
+Then select a scale item
+-> done: ScaleConfiguration.ThenSelectAScaleItem() (28.3s)
+And add the PF and ContentSymbol
+-> done: ScaleConfiguration.ThenAddThePFAndContentSymbol() (6.1s)
+And Save item
+-> done: ScaleConfiguration.ThenSaveItem() (0.2s)
+Then navigate to the configuration page to edit the content symbol assigned to item
+-> done: ScaleConfiguration.ThenNavigateToTheConfigurationPageToEditTheContentSymbolAssignedToItem() (1.5s)
+And Delete the second panel added from the configuration page
+-> done: ScaleConfiguration.ThenDeleteTheSecondPanelAddedFromTheConfigurationPage() (0.0s)
+And Verify that the change is reflected in Item's scale tab
+-> done: ScaleConfiguration.ThenVerifyThatTheChangeIsReflectedInItemSScaleTab() (12.3s)
+And Publish the PF to a second store where PF exists with same name
+-> done: ScaleConfiguration.ThenPublishThePFToASecondStoreWherePFExistsWithSameName() (29.0s)
+
+
+TestContext Messages:
+Given user navigates to HQ application
+-> done: HQLoginSteps.GivenUserNavigatesToHQApplication() (9.3s)
+When enter valid '<username>', '<hqpassword>'
+-> done: HQLoginSteps.WhenEnterValid("<username>", "<hqpassword>") (0.3s)
+And Clicks on Log In button
+-> done: HQLoginSteps.WhenClicksOnLogInButton() (8.1s)
+When User clicks on the Left Menu
+-> done: ScaleConfiguration.WhenUserClicksOnTheLeftMenu() (11.8s)
+Then menu should be displayed
+-> done: ScaleConfiguration.ThenMenuShouldBeDisplayed() (0.0s)
+When User enters Scale Configuration in the Search Box
+-> done: ScaleConfiguration.WhenUserEntersScaleConfigurationInTheSearchBox() (0.3s)
+Then Scale Configuration Item should be displayed on the Menu
+-> done: ScaleConfiguration.ThenScaleConfigurationItemShouldBeDisplayedOnTheMenu() (0.6s)
+When User Selects the Scale Configuration
+-> done: ScaleConfiguration.WhenUserSelectsTheScaleConfiguration() (0.0s)
+Then Scale Configuration Page should be displayed
+-> done: ScaleConfiguration.ThenScaleConfigurationPageShouldBeDisplayed() (0.0s)
+When User clicks on Tab Print Format
+-> done: ScaleConfiguration.WhenUserClicksOnTabPrintFormat() (1.8s)
+Then Click on the New Button
+-> done: ScaleConfiguration.ClickonNewButton() (0.3s)
+When user enter new PF code and name and Publish PF
+-> done: ScaleConfiguration.WhenUserEnterNewPFCodeAndNameAndPublishPF() (81.5s)
+And user search and select the printformat code
+-> done: ScaleConfiguration.WhenUserSearchAndSelectThePrintformatCode() (6.5s)
+Then user change the PF code and update the checkboxes
+-> done: ScaleConfiguration.ThenUserChangeThePFCodeAndUpdateTheCheckboxes() (0.2s)
+And verify Content Symbol is automatically checked on checking Content
+-> done: ScaleConfiguration.ThenVerifyContentSymbolIsAutomaticallyCheckedOnCheckingContent() (0.0s)
+And verify user can Change non nutritional section to the nutritional by adding a nutritional font and description
+-> done: ScaleConfiguration.ThenVerifyUserCanChangeNonNutritionalSectionToTheNutritionalByAddingANutritionalFontAndDescription() (15.8s)
+And Add another new nutritional Panel to another section
+-> done: ScaleConfiguration.ThenAddAnotherNewNutritionalPanelToAnotherSection() (19.0s)
+And Save and close the PF
+-> done: ScaleConfiguration.ThenSaveAndCloseThePF() (0.3s)
+Then select a scale item
+-> done: ScaleConfiguration.ThenSelectAScaleItem() (28.3s)
+And add the PF and ContentSymbol
+-> done: ScaleConfiguration.ThenAddThePFAndContentSymbol() (6.1s)
+And Save item
+-> done: ScaleConfiguration.ThenSaveItem() (0.2s)
+Then navigate to the configuration page to edit the content symbol assigned to item
+-> done: ScaleConfiguration.ThenNavigateToTheConfigurationPageToEditTheContentSymbolAssignedToItem() (1.5s)
+And Delete the second panel added from the configuration page
+-> done: ScaleConfiguration.ThenDeleteTheSecondPanelAddedFromTheConfigurationPage() (0.0s)
+And Verify that the change is reflected in Item's scale tab
+-> done: ScaleConfiguration.ThenVerifyThatTheChangeIsReflectedInItemSScaleTab() (12.3s)
+And Publish the PF to a second store where PF exists with same name
+-> done: ScaleConfiguration.ThenPublishThePFToASecondStoreWherePFExistsWithSameName() (29.0s)

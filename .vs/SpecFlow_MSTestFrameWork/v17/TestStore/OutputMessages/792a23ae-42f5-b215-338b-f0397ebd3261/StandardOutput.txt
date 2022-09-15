@@ -1,0 +1,104 @@
+-> Loading plugin C:\GCR_App2\GCRFramework\bin\Debug\netcoreapp3.1\LivingDoc.SpecFlowPlugin.dll
+-> Loading plugin C:\GCR_App2\GCRFramework\bin\Debug\netcoreapp3.1\TechTalk.SpecFlow.MSTest.SpecFlowPlugin.dll
+-> Loading plugin C:\GCR_App2\GCRFramework\bin\Debug\netcoreapp3.1\SpecFlow_MSTestFrameWork.dll
+-> Using default config
+Setup
+Given user navigates to HQ application
+-> done: HQLoginSteps.GivenUserNavigatesToHQApplication() (4.2s)
+When enter valid '<username>', '<hqpassword>'
+-> done: HQLoginSteps.WhenEnterValid("<username>", "<hqpassword>") (0.4s)
+And Clicks on Log In button
+-> done: HQLoginSteps.WhenClicksOnLogInButton() (8.2s)
+When User clicks on the Left Menu
+-> done: ScaleConfiguration.WhenUserClicksOnTheLeftMenu() (17.5s)
+Then menu should be displayed
+-> done: ScaleConfiguration.ThenMenuShouldBeDisplayed() (0.0s)
+When User enters Scale Configuration in the Search Box
+-> done: ScaleConfiguration.WhenUserEntersScaleConfigurationInTheSearchBox() (0.6s)
+Then Scale Configuration Item should be displayed on the Menu
+-> done: ScaleConfiguration.ThenScaleConfigurationItemShouldBeDisplayedOnTheMenu() (1.2s)
+When User Selects the Scale Configuration
+-> done: ScaleConfiguration.WhenUserSelectsTheScaleConfiguration() (0.0s)
+Then Scale Configuration Page should be displayed
+-> done: ScaleConfiguration.ThenScaleConfigurationPageShouldBeDisplayed() (0.0s)
+When User clicks on Tab Print Format
+-> done: ScaleConfiguration.WhenUserClicksOnTabPrintFormat() (4.2s)
+Then Click on the New Button
+-> done: ScaleConfiguration.ClickonNewButton() (1.2s)
+When Enter the CodeName and PrintFormat new
+-> done: ScaleConfiguration.EnterCodeNameandPrintFormat1() (6.0s)
+When Enter the Value of Print Name OpenSanBiscuit1
+-> done: ScaleConfiguration.EnterValueoOfpenSanBiscuit1() (5.7s)
+Then Click on Edit Button new PF
+-> done: ScaleConfiguration.ClickonEditButtonNEWPF() (5.7s)
+When Check the required text boxes
+-> done: ScaleConfiguration.CheckRequiredTextBoxes() (8.1s)
+When Click on Add Section
+-> done: ScaleConfiguration.ClickonAddSections() (3.3s)
+Then Click on Font Dropdown
+-> done: ScaleConfiguration.ClickOnFontDropDowns() (10.1s)
+Then Add Desc to font
+-> done: ScaleConfiguration.AddDescription() (5.4s)
+And check the Manadatory & Fixed Width check box
+-> done: ScaleConfiguration.ThenCheckTheManadatoryFixedWidthCheckBox() (0.7s)
+And configure the row & Characters values
+-> done: ScaleConfiguration.ThenConfigureTheRowCharactersValues() (0.6s)
+Then check a new nutritional Panel can be added to another section
+-> done: ScaleConfiguration.ThenCheckANewNutritionalPanelCanBeAddedToAnotherSection() (19.3s)
+Then Click Support Basic Mode Header and Table
+-> done: ScaleConfiguration.ClickSupportBasicModeHeaderandTable() (4.4s)
+Then Save the font with data
+-> done: ScaleConfiguration.SaveFont() (3.2s)
+Then Close the font
+-> done: ScaleConfiguration.CloseFont() (4.1s)
+
+
+TestContext Messages:
+Given user navigates to HQ application
+-> done: HQLoginSteps.GivenUserNavigatesToHQApplication() (4.2s)
+When enter valid '<username>', '<hqpassword>'
+-> done: HQLoginSteps.WhenEnterValid("<username>", "<hqpassword>") (0.4s)
+And Clicks on Log In button
+-> done: HQLoginSteps.WhenClicksOnLogInButton() (8.2s)
+When User clicks on the Left Menu
+-> done: ScaleConfiguration.WhenUserClicksOnTheLeftMenu() (17.5s)
+Then menu should be displayed
+-> done: ScaleConfiguration.ThenMenuShouldBeDisplayed() (0.0s)
+When User enters Scale Configuration in the Search Box
+-> done: ScaleConfiguration.WhenUserEntersScaleConfigurationInTheSearchBox() (0.6s)
+Then Scale Configuration Item should be displayed on the Menu
+-> done: ScaleConfiguration.ThenScaleConfigurationItemShouldBeDisplayedOnTheMenu() (1.2s)
+When User Selects the Scale Configuration
+-> done: ScaleConfiguration.WhenUserSelectsTheScaleConfiguration() (0.0s)
+Then Scale Configuration Page should be displayed
+-> done: ScaleConfiguration.ThenScaleConfigurationPageShouldBeDisplayed() (0.0s)
+When User clicks on Tab Print Format
+-> done: ScaleConfiguration.WhenUserClicksOnTabPrintFormat() (4.2s)
+Then Click on the New Button
+-> done: ScaleConfiguration.ClickonNewButton() (1.2s)
+When Enter the CodeName and PrintFormat new
+-> done: ScaleConfiguration.EnterCodeNameandPrintFormat1() (6.0s)
+When Enter the Value of Print Name OpenSanBiscuit1
+-> done: ScaleConfiguration.EnterValueoOfpenSanBiscuit1() (5.7s)
+Then Click on Edit Button new PF
+-> done: ScaleConfiguration.ClickonEditButtonNEWPF() (5.7s)
+When Check the required text boxes
+-> done: ScaleConfiguration.CheckRequiredTextBoxes() (8.1s)
+When Click on Add Section
+-> done: ScaleConfiguration.ClickonAddSections() (3.3s)
+Then Click on Font Dropdown
+-> done: ScaleConfiguration.ClickOnFontDropDowns() (10.1s)
+Then Add Desc to font
+-> done: ScaleConfiguration.AddDescription() (5.4s)
+And check the Manadatory & Fixed Width check box
+-> done: ScaleConfiguration.ThenCheckTheManadatoryFixedWidthCheckBox() (0.7s)
+And configure the row & Characters values
+-> done: ScaleConfiguration.ThenConfigureTheRowCharactersValues() (0.6s)
+Then check a new nutritional Panel can be added to another section
+-> done: ScaleConfiguration.ThenCheckANewNutritionalPanelCanBeAddedToAnotherSection() (19.3s)
+Then Click Support Basic Mode Header and Table
+-> done: ScaleConfiguration.ClickSupportBasicModeHeaderandTable() (4.4s)
+Then Save the font with data
+-> done: ScaleConfiguration.SaveFont() (3.2s)
+Then Close the font
+-> done: ScaleConfiguration.CloseFont() (4.1s)

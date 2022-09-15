@@ -1,0 +1,100 @@
+Setup
+Given user navigates to HQ application
+-> done: HQLoginSteps.GivenUserNavigatesToHQApplication() (3.9s)
+When enter valid '<username>', '<hqpassword>'
+-> done: HQLoginSteps.WhenEnterValid("<username>", "<hqpassword>") (0.3s)
+And Clicks on Log In button
+-> done: HQLoginSteps.WhenClicksOnLogInButton() (8.1s)
+When user create a new batch
+-> done: NewItemCreationSteps.WhenUserCreateANewBatch() (7.0s)
+When User clicks on the Left Menu
+-> done: ScaleConfiguration.WhenUserClicksOnTheLeftMenu() (8.1s)
+Then menu should be displayed
+-> done: ScaleConfiguration.ThenMenuShouldBeDisplayed() (0.0s)
+When User enters Scale Configuration in the Search Box
+-> done: ScaleConfiguration.WhenUserEntersScaleConfigurationInTheSearchBox() (0.4s)
+Then Scale Configuration Item should be displayed on the Menu
+-> done: ScaleConfiguration.ThenScaleConfigurationItemShouldBeDisplayedOnTheMenu() (1.0s)
+When User Selects the Scale Configuration
+-> done: ScaleConfiguration.WhenUserSelectsTheScaleConfiguration() (0.0s)
+Then Scale Configuration Page should be displayed
+-> done: ScaleConfiguration.ThenScaleConfigurationPageShouldBeDisplayed() (0.0s)
+When User clicks on Tab Print Format
+-> done: ScaleConfiguration.WhenUserClicksOnTabPrintFormat() (2.5s)
+Then Click on the New Button
+-> done: ScaleConfiguration.ClickonNewButton() (0.8s)
+When Enter the CodeName and PrintFormat
+-> done: ScaleConfiguration.EnterCodeNameandPrintFormat() (6.0s)
+When Enter the Value of Print Name
+-> done: ScaleConfiguration.EnterValueofsearchcode() (5.4s)
+Then Click on Edit Button
+-> done: ScaleConfiguration.ClickonEditButton() (5.5s)
+When Check the required text boxes
+-> done: ScaleConfiguration.CheckRequiredTextBoxes() (7.7s)
+Then Check the Content Symbol
+-> done: ScaleConfiguration.CheckContentSymbol() (0.0s)
+When Click on Add Section
+-> done: ScaleConfiguration.ClickonAddSections() (3.2s)
+Then Click on Font Dropdown
+-> done: ScaleConfiguration.ClickOnFontDropDowns() (10.1s)
+Then Add Desc to font
+-> done: ScaleConfiguration.AddDescription() (5.4s)
+Then Save the font with data
+-> done: ScaleConfiguration.SaveFont() (3.3s)
+Then Close the font
+-> done: ScaleConfiguration.CloseFont() (4.1s)
+Then Publish the PF
+-> done: ScaleConfiguration.PublishthePF() (10.5s)
+Then Select the Store
+-> done: ScaleConfiguration.SelectStore() (11.6s)
+
+
+TestContext Messages:
+Given user navigates to HQ application
+-> done: HQLoginSteps.GivenUserNavigatesToHQApplication() (3.9s)
+When enter valid '<username>', '<hqpassword>'
+-> done: HQLoginSteps.WhenEnterValid("<username>", "<hqpassword>") (0.3s)
+And Clicks on Log In button
+-> done: HQLoginSteps.WhenClicksOnLogInButton() (8.1s)
+When user create a new batch
+-> done: NewItemCreationSteps.WhenUserCreateANewBatch() (7.0s)
+When User clicks on the Left Menu
+-> done: ScaleConfiguration.WhenUserClicksOnTheLeftMenu() (8.1s)
+Then menu should be displayed
+-> done: ScaleConfiguration.ThenMenuShouldBeDisplayed() (0.0s)
+When User enters Scale Configuration in the Search Box
+-> done: ScaleConfiguration.WhenUserEntersScaleConfigurationInTheSearchBox() (0.4s)
+Then Scale Configuration Item should be displayed on the Menu
+-> done: ScaleConfiguration.ThenScaleConfigurationItemShouldBeDisplayedOnTheMenu() (1.0s)
+When User Selects the Scale Configuration
+-> done: ScaleConfiguration.WhenUserSelectsTheScaleConfiguration() (0.0s)
+Then Scale Configuration Page should be displayed
+-> done: ScaleConfiguration.ThenScaleConfigurationPageShouldBeDisplayed() (0.0s)
+When User clicks on Tab Print Format
+-> done: ScaleConfiguration.WhenUserClicksOnTabPrintFormat() (2.5s)
+Then Click on the New Button
+-> done: ScaleConfiguration.ClickonNewButton() (0.8s)
+When Enter the CodeName and PrintFormat
+-> done: ScaleConfiguration.EnterCodeNameandPrintFormat() (6.0s)
+When Enter the Value of Print Name
+-> done: ScaleConfiguration.EnterValueofsearchcode() (5.4s)
+Then Click on Edit Button
+-> done: ScaleConfiguration.ClickonEditButton() (5.5s)
+When Check the required text boxes
+-> done: ScaleConfiguration.CheckRequiredTextBoxes() (7.7s)
+Then Check the Content Symbol
+-> done: ScaleConfiguration.CheckContentSymbol() (0.0s)
+When Click on Add Section
+-> done: ScaleConfiguration.ClickonAddSections() (3.2s)
+Then Click on Font Dropdown
+-> done: ScaleConfiguration.ClickOnFontDropDowns() (10.1s)
+Then Add Desc to font
+-> done: ScaleConfiguration.AddDescription() (5.4s)
+Then Save the font with data
+-> done: ScaleConfiguration.SaveFont() (3.3s)
+Then Close the font
+-> done: ScaleConfiguration.CloseFont() (4.1s)
+Then Publish the PF
+-> done: ScaleConfiguration.PublishthePF() (10.5s)
+Then Select the Store
+-> done: ScaleConfiguration.SelectStore() (11.6s)

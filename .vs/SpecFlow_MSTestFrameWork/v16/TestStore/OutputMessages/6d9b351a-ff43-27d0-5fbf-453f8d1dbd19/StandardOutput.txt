@@ -1,0 +1,118 @@
+-> Loading plugin C:\workspace\GCRBatchExecution\GCRFramework\bin\Debug\netcoreapp3.1\LivingDoc.SpecFlowPlugin.dll
+-> Loading plugin C:\workspace\GCRBatchExecution\GCRFramework\bin\Debug\netcoreapp3.1\TechTalk.SpecFlow.MSTest.SpecFlowPlugin.dll
+-> Loading plugin C:\workspace\GCRBatchExecution\GCRFramework\bin\Debug\netcoreapp3.1\SpecFlow_MSTestFrameWork.dll
+-> Using default config
+Setup
+Given user navigates to HQ application
+-> done: HQLoginSteps.GivenUserNavigatesToHQApplication() (4.5s)
+When enter valid '<username>', '<hqpassword>'
+-> done: HQLoginSteps.WhenEnterValid("<username>", "<hqpassword>") (0.4s)
+And Clicks on Log In button
+-> done: HQLoginSteps.WhenClicksOnLogInButton() (8.1s)
+When User clicks on the Left Menu
+-> done: ScaleConfiguration.WhenUserClicksOnTheLeftMenu() (8.3s)
+Then menu should be displayed
+-> done: ScaleConfiguration.ThenMenuShouldBeDisplayed() (0.0s)
+When User enters Scale Configuration in the Search Box
+-> done: ScaleConfiguration.WhenUserEntersScaleConfigurationInTheSearchBox() (0.5s)
+Then User click on Scale Configuration Item should be displayed on the Menu
+-> done: PreRequisite.ThenUserClickOnScaleConfigurationItemShouldBeDisplayedOnTheMenu() (1.2s)
+When User clicks on Nutritional Panel New Button
+-> done: PreRequisite.UserClickonNutritionalPanelNewButton() (15.0s)
+When Enter CodeName and Nutritional Panel for Testdata TwoZeroTwo
+-> done: PreRequisite.WhenEnterCodeNameAndNutritionalPanelForTestdataTwoZeroTwo() (5.5s)
+Then click on save button
+-> done: PreRequisite.ThenClickOnSaveButton() (3.3s)
+When User clicks on Nutritional Panel New Button
+-> done: PreRequisite.UserClickonNutritionalPanelNewButton() (14.0s)
+When Enter CodeName and Nutritional Panel for second Testdata TwoZeroTwo
+-> done: PreRequisite.WhenEnterCodeNameAndNutritionalPanelForSecondTestdataTwoZeroTwo() (5.5s)
+Then click on save button
+-> done: PreRequisite.ThenClickOnSaveButton() (3.3s)
+When I search the Nutrional Panel by Name Testdata TwoZeroTwo
+-> done: PreRequisite.WhenISearchTheNutrionalPanelByNameTestdataTwoZeroTwo() (9.1s)
+Then Click on Edit Button NutritionalPanel TwoZeroOne
+-> done: PreRequisite.ThenClickOnEditButtonNutritionalPanelTwoZeroOne() (5.6s)
+Then Click on the New Button
+-> error: element not interactable
+  (Session info: chrome=103.0.5060.134) (0.2s)
+Then Click on Nutritional Element dropdown TwoZeroOne
+-> skipped because of previous errors
+When Enter the value in MeasurementsUnit Mg
+-> skipped because of previous errors
+Then Enter Value in Mask Field Updated Value
+-> skipped because of previous errors
+Then click on save and close button Nutritional Panel Element
+-> skipped because of previous errors
+When I search the second Nutrional Panel by Name Testdata TwoZeroTwo
+-> skipped because of previous errors
+Then Click on Edit Button NutritionalPanel TwoZeroOne
+-> skipped because of previous errors
+Then Click on the New Button
+-> skipped because of previous errors
+Then Click on second Nutritional Element dropdown Testdata TwoZeroTwo
+-> skipped because of previous errors
+When Enter the value in MeasurementsUnit g
+-> skipped because of previous errors
+Then Enter Value in second Mask Field
+-> skipped because of previous errors
+Then click on save and close button Nutritional Panel Element
+-> skipped because of previous errors
+
+
+TestContext Messages:
+Given user navigates to HQ application
+-> done: HQLoginSteps.GivenUserNavigatesToHQApplication() (4.5s)
+When enter valid '<username>', '<hqpassword>'
+-> done: HQLoginSteps.WhenEnterValid("<username>", "<hqpassword>") (0.4s)
+And Clicks on Log In button
+-> done: HQLoginSteps.WhenClicksOnLogInButton() (8.1s)
+When User clicks on the Left Menu
+-> done: ScaleConfiguration.WhenUserClicksOnTheLeftMenu() (8.3s)
+Then menu should be displayed
+-> done: ScaleConfiguration.ThenMenuShouldBeDisplayed() (0.0s)
+When User enters Scale Configuration in the Search Box
+-> done: ScaleConfiguration.WhenUserEntersScaleConfigurationInTheSearchBox() (0.5s)
+Then User click on Scale Configuration Item should be displayed on the Menu
+-> done: PreRequisite.ThenUserClickOnScaleConfigurationItemShouldBeDisplayedOnTheMenu() (1.2s)
+When User clicks on Nutritional Panel New Button
+-> done: PreRequisite.UserClickonNutritionalPanelNewButton() (15.0s)
+When Enter CodeName and Nutritional Panel for Testdata TwoZeroTwo
+-> done: PreRequisite.WhenEnterCodeNameAndNutritionalPanelForTestdataTwoZeroTwo() (5.5s)
+Then click on save button
+-> done: PreRequisite.ThenClickOnSaveButton() (3.3s)
+When User clicks on Nutritional Panel New Button
+-> done: PreRequisite.UserClickonNutritionalPanelNewButton() (14.0s)
+When Enter CodeName and Nutritional Panel for second Testdata TwoZeroTwo
+-> done: PreRequisite.WhenEnterCodeNameAndNutritionalPanelForSecondTestdataTwoZeroTwo() (5.5s)
+Then click on save button
+-> done: PreRequisite.ThenClickOnSaveButton() (3.3s)
+When I search the Nutrional Panel by Name Testdata TwoZeroTwo
+-> done: PreRequisite.WhenISearchTheNutrionalPanelByNameTestdataTwoZeroTwo() (9.1s)
+Then Click on Edit Button NutritionalPanel TwoZeroOne
+-> done: PreRequisite.ThenClickOnEditButtonNutritionalPanelTwoZeroOne() (5.6s)
+Then Click on the New Button
+-> error: element not interactable
+  (Session info: chrome=103.0.5060.134) (0.2s)
+Then Click on Nutritional Element dropdown TwoZeroOne
+-> skipped because of previous errors
+When Enter the value in MeasurementsUnit Mg
+-> skipped because of previous errors
+Then Enter Value in Mask Field Updated Value
+-> skipped because of previous errors
+Then click on save and close button Nutritional Panel Element
+-> skipped because of previous errors
+When I search the second Nutrional Panel by Name Testdata TwoZeroTwo
+-> skipped because of previous errors
+Then Click on Edit Button NutritionalPanel TwoZeroOne
+-> skipped because of previous errors
+Then Click on the New Button
+-> skipped because of previous errors
+Then Click on second Nutritional Element dropdown Testdata TwoZeroTwo
+-> skipped because of previous errors
+When Enter the value in MeasurementsUnit g
+-> skipped because of previous errors
+Then Enter Value in second Mask Field
+-> skipped because of previous errors
+Then click on save and close button Nutritional Panel Element
+-> skipped because of previous errors

@@ -1,0 +1,90 @@
+-> Loading plugin C:\workspace\12-Sepgcrframework\GCRFramework\bin\Debug\netcoreapp3.1\LivingDoc.SpecFlowPlugin.dll
+-> Loading plugin C:\workspace\12-Sepgcrframework\GCRFramework\bin\Debug\netcoreapp3.1\TechTalk.SpecFlow.MSTest.SpecFlowPlugin.dll
+-> Loading plugin C:\workspace\12-Sepgcrframework\GCRFramework\bin\Debug\netcoreapp3.1\SpecFlow_MSTestFrameWork.dll
+-> Using default config
+Setup
+Given user navigates to HQ application
+-> done: HQLoginSteps.GivenUserNavigatesToHQApplication() (4.8s)
+When enter valid '<username>', '<hqpassword>'
+-> done: HQLoginSteps.WhenEnterValid("<username>", "<hqpassword>") (0.5s)
+And Clicks on Log In button
+-> done: HQLoginSteps.WhenClicksOnLogInButton() (8.2s)
+When user create a new batch
+-> done: NewItemCreationSteps.WhenUserCreateANewBatch() (9.3s)
+When User clicks on the Left Menu
+-> done: ScaleConfiguration.WhenUserClicksOnTheLeftMenu() (8.2s)
+Then menu should be displayed
+-> done: ScaleConfiguration.ThenMenuShouldBeDisplayed() (0.0s)
+When User enters Scale Configuration in the Search Box
+-> done: ScaleConfiguration.WhenUserEntersScaleConfigurationInTheSearchBox() (0.6s)
+Then Scale Configuration Item should be displayed on the Menu
+-> done: ScaleConfiguration.ThenScaleConfigurationItemShouldBeDisplayedOnTheMenu() (1.6s)
+When User Selects the Scale Configuration
+-> done: ScaleConfiguration.WhenUserSelectsTheScaleConfiguration() (0.0s)
+Then Scale Configuration Page should be displayed
+-> done: ScaleConfiguration.ThenScaleConfigurationPageShouldBeDisplayed() (0.0s)
+When User clicks on Tab Print Format
+-> done: ScaleConfiguration.WhenUserClicksOnTabPrintFormat() (4.9s)
+Then Click on the New Button
+-> done: ScaleConfiguration.ClickonNewButton() (1.0s)
+When user enter new PF code and name and Publish PF
+-> done: ScaleConfiguration.WhenUserEnterNewPFCodeAndNameAndPublishPF() (75.3s)
+And user search and select the printformat code
+-> done: ScaleConfiguration.WhenUserSearchAndSelectThePrintformatCode() (6.6s)
+Then user change the PF code and update the checkboxes
+-> done: ScaleConfiguration.ThenUserChangeThePFCodeAndUpdateTheCheckboxes() (0.3s)
+And verify Content Symbol is automatically checked on checking Content
+-> done: ScaleConfiguration.ThenVerifyContentSymbolIsAutomaticallyCheckedOnCheckingContent() (0.1s)
+And verify user can Change non nutritional section to the nutritional by adding a nutritional font and description
+-> done: ScaleConfiguration.ThenVerifyUserCanChangeNonNutritionalSectionToTheNutritionalByAddingANutritionalFontAndDescription() (16.9s)
+And Add another new nutritional Panel to another section
+-> done: ScaleConfiguration.ThenAddAnotherNewNutritionalPanelToAnotherSection() (10.6s)
+And Save and close the PF
+-> done: ScaleConfiguration.ThenSaveAndCloseThePF() (8.3s)
+Then select a scale item
+-> error: element not interactable
+  (Session info: chrome=105.0.5195.102) (21.2s)
+
+
+TestContext Messages:
+Given user navigates to HQ application
+-> done: HQLoginSteps.GivenUserNavigatesToHQApplication() (4.8s)
+When enter valid '<username>', '<hqpassword>'
+-> done: HQLoginSteps.WhenEnterValid("<username>", "<hqpassword>") (0.5s)
+And Clicks on Log In button
+-> done: HQLoginSteps.WhenClicksOnLogInButton() (8.2s)
+When user create a new batch
+-> done: NewItemCreationSteps.WhenUserCreateANewBatch() (9.3s)
+When User clicks on the Left Menu
+-> done: ScaleConfiguration.WhenUserClicksOnTheLeftMenu() (8.2s)
+Then menu should be displayed
+-> done: ScaleConfiguration.ThenMenuShouldBeDisplayed() (0.0s)
+When User enters Scale Configuration in the Search Box
+-> done: ScaleConfiguration.WhenUserEntersScaleConfigurationInTheSearchBox() (0.6s)
+Then Scale Configuration Item should be displayed on the Menu
+-> done: ScaleConfiguration.ThenScaleConfigurationItemShouldBeDisplayedOnTheMenu() (1.6s)
+When User Selects the Scale Configuration
+-> done: ScaleConfiguration.WhenUserSelectsTheScaleConfiguration() (0.0s)
+Then Scale Configuration Page should be displayed
+-> done: ScaleConfiguration.ThenScaleConfigurationPageShouldBeDisplayed() (0.0s)
+When User clicks on Tab Print Format
+-> done: ScaleConfiguration.WhenUserClicksOnTabPrintFormat() (4.9s)
+Then Click on the New Button
+-> done: ScaleConfiguration.ClickonNewButton() (1.0s)
+When user enter new PF code and name and Publish PF
+-> done: ScaleConfiguration.WhenUserEnterNewPFCodeAndNameAndPublishPF() (75.3s)
+And user search and select the printformat code
+-> done: ScaleConfiguration.WhenUserSearchAndSelectThePrintformatCode() (6.6s)
+Then user change the PF code and update the checkboxes
+-> done: ScaleConfiguration.ThenUserChangeThePFCodeAndUpdateTheCheckboxes() (0.3s)
+And verify Content Symbol is automatically checked on checking Content
+-> done: ScaleConfiguration.ThenVerifyContentSymbolIsAutomaticallyCheckedOnCheckingContent() (0.1s)
+And verify user can Change non nutritional section to the nutritional by adding a nutritional font and description
+-> done: ScaleConfiguration.ThenVerifyUserCanChangeNonNutritionalSectionToTheNutritionalByAddingANutritionalFontAndDescription() (16.9s)
+And Add another new nutritional Panel to another section
+-> done: ScaleConfiguration.ThenAddAnotherNewNutritionalPanelToAnotherSection() (10.6s)
+And Save and close the PF
+-> done: ScaleConfiguration.ThenSaveAndCloseThePF() (8.3s)
+Then select a scale item
+-> error: element not interactable
+  (Session info: chrome=105.0.5195.102) (21.2s)

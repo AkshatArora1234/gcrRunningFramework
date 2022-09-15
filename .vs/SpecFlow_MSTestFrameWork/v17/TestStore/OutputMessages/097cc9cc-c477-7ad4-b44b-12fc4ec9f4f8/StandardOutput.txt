@@ -1,0 +1,88 @@
+-> Loading plugin C:\GCR_App2\GCRFramework\bin\Debug\netcoreapp3.1\LivingDoc.SpecFlowPlugin.dll
+-> Loading plugin C:\GCR_App2\GCRFramework\bin\Debug\netcoreapp3.1\TechTalk.SpecFlow.MSTest.SpecFlowPlugin.dll
+-> Loading plugin C:\GCR_App2\GCRFramework\bin\Debug\netcoreapp3.1\SpecFlow_MSTestFrameWork.dll
+-> Using default config
+Setup
+Given user navigates to HQ application
+-> done: HQLoginSteps.GivenUserNavigatesToHQApplication() (3.3s)
+When enter valid '<username>', '<hqpassword>'
+-> done: HQLoginSteps.WhenEnterValid("<username>", "<hqpassword>") (0.2s)
+And Clicks on Log In button
+-> done: HQLoginSteps.WhenClicksOnLogInButton() (8.1s)
+When User clicks on the Left Menu
+-> done: ScaleConfiguration.WhenUserClicksOnTheLeftMenu() (11.7s)
+Then menu should be displayed
+-> done: ScaleConfiguration.ThenMenuShouldBeDisplayed() (0.0s)
+When User enters Scale Configuration in the Search Box
+-> done: ScaleConfiguration.WhenUserEntersScaleConfigurationInTheSearchBox() (0.4s)
+Then Scale Configuration Item should be displayed on the Menu
+-> done: ScaleConfiguration.ThenScaleConfigurationItemShouldBeDisplayedOnTheMenu() (0.7s)
+When User Selects the Scale Configuration
+-> done: ScaleConfiguration.WhenUserSelectsTheScaleConfiguration() (0.0s)
+Then Scale Configuration Page should be displayed
+-> done: ScaleConfiguration.ThenScaleConfigurationPageShouldBeDisplayed() (0.0s)
+When User clicks on Tab Config page
+-> done: PreRequisite.WhenUserClicksOnTabConfigration() (0.2s)
+When User clicks on Nutritional Panel New Button
+-> done: PreRequisite.UserClickonNutritionalPanelNewButton() (0.2s)
+When Enter CodeName and Nutritional Panel TwoZeroOne
+-> done: PreRequisite.WhenEnterCodeNameAndNutritionalPanelTwoZeroOne() (5.3s)
+Then click on save button
+-> done: PreRequisite.ThenClickOnSaveButton() (0.3s)
+When i search the Nutrional Panel by Name TwoZeroOne
+-> done: PreRequisite.WhenISearchTheNutrionalPanelByNameTwoZeroOne() (8.3s)
+Then Click on Edit Button NutritionalPanel TwoZeroOne
+-> done: PreRequisite.ThenClickOnEditButtonNutritionalPanelTwoZeroOne() (27.3s)
+Then Click on the New Button
+-> done: ScaleConfiguration.ClickonNewButton() (0.3s)
+Then Click on Nutritional Element dropdown TwoZeroOne
+-> done: PreRequisite.ThenClickOnNutritionalElementDropdownTwoZeroOne() (10.4s)
+When Enter the value in MeasurementsUnit Mg
+-> done: PreRequisite.WhenEnterTheValueInMeasurementsUnitMg() (10.1s)
+Then Enter Value in Mask Field Updated Value
+-> done: PreRequisite.ThenEnterValueInMaskFieldUpdatedValue() (10.2s)
+Then click on new save button
+-> done: PreRequisite.ThenClickOnnewSaveButton() (0.1s)
+
+
+TestContext Messages:
+Given user navigates to HQ application
+-> done: HQLoginSteps.GivenUserNavigatesToHQApplication() (3.3s)
+When enter valid '<username>', '<hqpassword>'
+-> done: HQLoginSteps.WhenEnterValid("<username>", "<hqpassword>") (0.2s)
+And Clicks on Log In button
+-> done: HQLoginSteps.WhenClicksOnLogInButton() (8.1s)
+When User clicks on the Left Menu
+-> done: ScaleConfiguration.WhenUserClicksOnTheLeftMenu() (11.7s)
+Then menu should be displayed
+-> done: ScaleConfiguration.ThenMenuShouldBeDisplayed() (0.0s)
+When User enters Scale Configuration in the Search Box
+-> done: ScaleConfiguration.WhenUserEntersScaleConfigurationInTheSearchBox() (0.4s)
+Then Scale Configuration Item should be displayed on the Menu
+-> done: ScaleConfiguration.ThenScaleConfigurationItemShouldBeDisplayedOnTheMenu() (0.7s)
+When User Selects the Scale Configuration
+-> done: ScaleConfiguration.WhenUserSelectsTheScaleConfiguration() (0.0s)
+Then Scale Configuration Page should be displayed
+-> done: ScaleConfiguration.ThenScaleConfigurationPageShouldBeDisplayed() (0.0s)
+When User clicks on Tab Config page
+-> done: PreRequisite.WhenUserClicksOnTabConfigration() (0.2s)
+When User clicks on Nutritional Panel New Button
+-> done: PreRequisite.UserClickonNutritionalPanelNewButton() (0.2s)
+When Enter CodeName and Nutritional Panel TwoZeroOne
+-> done: PreRequisite.WhenEnterCodeNameAndNutritionalPanelTwoZeroOne() (5.3s)
+Then click on save button
+-> done: PreRequisite.ThenClickOnSaveButton() (0.3s)
+When i search the Nutrional Panel by Name TwoZeroOne
+-> done: PreRequisite.WhenISearchTheNutrionalPanelByNameTwoZeroOne() (8.3s)
+Then Click on Edit Button NutritionalPanel TwoZeroOne
+-> done: PreRequisite.ThenClickOnEditButtonNutritionalPanelTwoZeroOne() (27.3s)
+Then Click on the New Button
+-> done: ScaleConfiguration.ClickonNewButton() (0.3s)
+Then Click on Nutritional Element dropdown TwoZeroOne
+-> done: PreRequisite.ThenClickOnNutritionalElementDropdownTwoZeroOne() (10.4s)
+When Enter the value in MeasurementsUnit Mg
+-> done: PreRequisite.WhenEnterTheValueInMeasurementsUnitMg() (10.1s)
+Then Enter Value in Mask Field Updated Value
+-> done: PreRequisite.ThenEnterValueInMaskFieldUpdatedValue() (10.2s)
+Then click on new save button
+-> done: PreRequisite.ThenClickOnnewSaveButton() (0.1s)

@@ -1,0 +1,98 @@
+﻿{
+  "searchData": "selenium",
+  "PrintCode2.0": "12",
+  "PrintFormat2.0": "OpenSansBiscuits",
+  "NonNutritionalValue": "FONT_1",
+  "NonNutritionalDesc": "nonnutritional",
+  "PrintCode3.0": "14",
+  "PrintFormat3.0": "OpenSansBiscuits1",
+  "NutritionalValue": "Font2",
+  "NutritionalDesc": "nutritionalsection",
+  "ChangedPFCOde": "21",
+  "ChangedPFName": "Popcorn",
+  "ColumnName": "Scale",
+  "PrintCode2.2": "12",
+  "PrintFormat2.2": "Popcorn1",
+  "PrintFormat2.3": "Popcorn2",
+
+
+
+  //TestData 2.0.0
+
+  "FontCode2.0": "35",
+  "Fontname2.0": "BreadCheese",
+  "NutritionalCode2.0": "41",
+  "NutritionalName2.0": "ChocoCream",
+  "NutritionalPanelName2.0": "ChocoCream",
+  "NonNutritionalValueDropdwon2.0": "Energy",
+  "MaskFieldValue2.0": "36",
+  "Measureunit2.0": "kJ",
+  "TareCode2.0": "10",
+  "TareName2.0": "Penuts",
+  "TareValue2.0": "8",
+  "PresetCode2.0": "67",
+  "PresetMessage2.0": "Minerals Qty",
+  "ContentSymbolCode2.0": "27",
+  "ContentSymbol2.0": "G",
+  "ContentSymbolDescription2.0": "Per Grams",
+
+  //TestData 2.0.1
+
+  "FontCode2.1": "11",
+  "Fontname2.1": "T Popcorn",
+  "NutritionalName2.0.1": "French fries",
+  "NutritionalCode2.0.1": "39",
+  "NonNutritionalValueDropdwon2.0.1": "Protein",
+  "Measureunit2.0.1": "mg",
+  "MaskFieldValue2.0.1": "92",
+  "NutritionalPanelName2.0.1": "French fries",
+  "TareCode2.0.1": "45",
+  "TareName2.0.1": "RicePowder",
+  "TareValue2.0.1": "30",
+  "ContentSymbolCode2.0.1": "39",
+  "ContentSymbol2.0.1": "ML",
+  "ContentSymbolDescription2.0.1": "10 MilliLitre",
+  "PresetCode2.0.1": "46",
+  "PresetMessage2.0.1": "Contains preservatives",
+
+  //TestData 2.0.2
+  "PrintCode2.0.2": "13",
+
+  "FontCode2.0.2": "11",
+  "Fontname2.0.2": "T Popcorn",
+  "SecondFontCode2.0.2": "12",
+  "SecondFontname2.0.2": "KitKat Cake",
+
+  "NutritionalCode2.0.2": "39",
+  "NutritionalName2.0.2": "French fries",
+  "SecondNutritionalCode2.0.2": "27",
+  "SecondNutritionalName2.0.2": "Coco cola",
+  "SecondNonNutritionalValueDropdwon2.0.2": "Sugar",
+  "SecondMeasureunit2.0.2": "g",
+  "SecondMaskFieldValue2.0.2": "71",
+
+  "ContentSymbolCode2.0.2": "18",
+  "ContentSymbol2.0.2": "KG",
+  "ContentSymbolDescrition2.0.2": "KiloGrams",
+
+  "NewContentSymbol2.0.2": "KGTest",
+
+  "TareCode2.0.2": "46",
+  "TareName2.0.2": "FriedRicePowder",
+  "TareValue2.0.2": "31",
+
+  "PresetCode2.0.2": "47",
+  "PresetMessage2.0.2": "Contains fat",
+  "PresetList2.0.2": "1,2,3",
+
+  //Test Data
+  "SrchContentSymbol": "18",
+  "ContSymbol": "KG",
+
+  "a": "10",
+  "b": "15",
+  "PFName": "21",
+  "HRows": "4",
+  "TRows": "6"
+
+}

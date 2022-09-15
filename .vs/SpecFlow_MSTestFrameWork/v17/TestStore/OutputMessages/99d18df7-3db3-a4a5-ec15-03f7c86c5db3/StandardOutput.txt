@@ -1,0 +1,146 @@
+-> Loading plugin C:\GCR5\GCRFramework\bin\Debug\netcoreapp3.1\LivingDoc.SpecFlowPlugin.dll
+-> Loading plugin C:\GCR5\GCRFramework\bin\Debug\netcoreapp3.1\TechTalk.SpecFlow.MSTest.SpecFlowPlugin.dll
+-> Loading plugin C:\GCR5\GCRFramework\bin\Debug\netcoreapp3.1\SpecFlow_MSTestFrameWork.dll
+-> Using default config
+Setup
+Given user navigates to HQ application
+-> done: HQLoginSteps.GivenUserNavigatesToHQApplication() (5.8s)
+When enter valid '<username>', '<hqpassword>'
+-> done: HQLoginSteps.WhenEnterValid("<username>", "<hqpassword>") (0.9s)
+And Clicks on Log In button
+-> done: HQLoginSteps.WhenClicksOnLogInButton() (8.2s)
+When user create a new batch
+-> done: NewItemCreationSteps.WhenUserCreateANewBatch() (10.4s)
+When User clicks on the Left Menu
+-> done: ScaleConfiguration.WhenUserClicksOnTheLeftMenu() (8.5s)
+Then menu should be displayed
+-> done: ScaleConfiguration.ThenMenuShouldBeDisplayed() (0.0s)
+When User enters Scale Configuration in the Search Box
+-> done: ScaleConfiguration.WhenUserEntersScaleConfigurationInTheSearchBox() (1.2s)
+Then Scale Configuration Item should be displayed on the Menu
+-> done: ScaleConfiguration.ThenScaleConfigurationItemShouldBeDisplayedOnTheMenu() (2.5s)
+When User Selects the Scale Configuration
+-> done: ScaleConfiguration.WhenUserSelectsTheScaleConfiguration() (0.0s)
+When User clicks on Tab Print Format
+-> done: ScaleConfiguration.WhenUserClicksOnTabPrintFormat() (5.3s)
+Then Click on the New Button
+-> done: ScaleConfiguration.ClickonNewButton() (2.1s)
+When Enter the CodeName and PrintFormat
+-> done: ScaleConfiguration.EnterCodeNameandPrintFormat() (7.9s)
+When Enter the Value of Print Name
+-> done: ScaleConfiguration.EnterValueofsearchcode() (5.9s)
+Then Click on Edit Button
+-> done: ScaleConfiguration.ClickonEditButton() (6.0s)
+When Check the required text boxes
+-> done: ScaleConfiguration.CheckRequiredTextBoxes() (8.5s)
+Then Check the Content Symbol
+-> done: ScaleConfiguration.CheckContentSymbol() (0.1s)
+When Click on Add Section
+-> done: ScaleConfiguration.ClickonAddSections() (3.7s)
+Then Click on Font Dropdown
+-> done: ScaleConfiguration.ClickOnFontDropDowns() (10.3s)
+Then Add Desc to font
+-> done: ScaleConfiguration.AddDescription() (5.9s)
+Then Save the font with data
+-> done: ScaleConfiguration.SaveFont() (3.7s)
+Then Close the font
+-> done: ScaleConfiguration.CloseFont() (4.2s)
+Then Publish the PF
+-> done: ScaleConfiguration.PublishthePF() (5.0s)
+Then Select the Store
+-> done: ScaleConfiguration.SelectStore() (3.0s)
+And user navigates to SR application
+-> done: HQLoginSteps.ThenUserNavigatesToSRApplication() (6.5s)
+When enter valid '<username>', '<hqpassword>'
+-> done: HQLoginSteps.WhenEnterValid("<username>", "<hqpassword>") (0.7s)
+And Clicks on Login button of SR app
+-> done: HQLoginSteps.WhenClicksOnLoginButtonOfSRApp() (12.2s)
+When User clicks on the Left Menu
+-> done: ScaleConfiguration.WhenUserClicksOnTheLeftMenu() (8.6s)
+Then menu should be displayed
+-> done: ScaleConfiguration.ThenMenuShouldBeDisplayed() (0.0s)
+When User enters Scale Configuration in the Search Box
+-> done: ScaleConfiguration.WhenUserEntersScaleConfigurationInTheSearchBox() (2.5s)
+Then Scale Configuration Item should be displayed on the Menu
+-> done: ScaleConfiguration.ThenScaleConfigurationItemShouldBeDisplayedOnTheMenu() (2.0s)
+Then navigate to verify Tare '10' and 'Penuts'
+-> done: ScaleConfiguration.ThenNavigateToVerifyTareAnd("10", "Penuts") (10.1s)
+Then navigate to verify Content Symbol '27' and 'G'
+-> done: ScaleConfiguration.ThenNavigateToVerifyContentSymbolAnd("27", "G") (19.9s)
+Then navigate to verify Preset Messages '67' and 'Minerals Qty'
+-> done: ScaleConfiguration.ThenNavigateToVerifyPresetMessagesAnd("67", "Minerals Qty") (25.0s)
+Then navigate to verify Print Format '12' and 'OpenSansBiscuits'
+-> error: element not interactable
+  (Session info: chrome=105.0.5195.102) (11.8s)
+
+
+TestContext Messages:
+Given user navigates to HQ application
+-> done: HQLoginSteps.GivenUserNavigatesToHQApplication() (5.8s)
+When enter valid '<username>', '<hqpassword>'
+-> done: HQLoginSteps.WhenEnterValid("<username>", "<hqpassword>") (0.9s)
+And Clicks on Log In button
+-> done: HQLoginSteps.WhenClicksOnLogInButton() (8.2s)
+When user create a new batch
+-> done: NewItemCreationSteps.WhenUserCreateANewBatch() (10.4s)
+When User clicks on the Left Menu
+-> done: ScaleConfiguration.WhenUserClicksOnTheLeftMenu() (8.5s)
+Then menu should be displayed
+-> done: ScaleConfiguration.ThenMenuShouldBeDisplayed() (0.0s)
+When User enters Scale Configuration in the Search Box
+-> done: ScaleConfiguration.WhenUserEntersScaleConfigurationInTheSearchBox() (1.2s)
+Then Scale Configuration Item should be displayed on the Menu
+-> done: ScaleConfiguration.ThenScaleConfigurationItemShouldBeDisplayedOnTheMenu() (2.5s)
+When User Selects the Scale Configuration
+-> done: ScaleConfiguration.WhenUserSelectsTheScaleConfiguration() (0.0s)
+When User clicks on Tab Print Format
+-> done: ScaleConfiguration.WhenUserClicksOnTabPrintFormat() (5.3s)
+Then Click on the New Button
+-> done: ScaleConfiguration.ClickonNewButton() (2.1s)
+When Enter the CodeName and PrintFormat
+-> done: ScaleConfiguration.EnterCodeNameandPrintFormat() (7.9s)
+When Enter the Value of Print Name
+-> done: ScaleConfiguration.EnterValueofsearchcode() (5.9s)
+Then Click on Edit Button
+-> done: ScaleConfiguration.ClickonEditButton() (6.0s)
+When Check the required text boxes
+-> done: ScaleConfiguration.CheckRequiredTextBoxes() (8.5s)
+Then Check the Content Symbol
+-> done: ScaleConfiguration.CheckContentSymbol() (0.1s)
+When Click on Add Section
+-> done: ScaleConfiguration.ClickonAddSections() (3.7s)
+Then Click on Font Dropdown
+-> done: ScaleConfiguration.ClickOnFontDropDowns() (10.3s)
+Then Add Desc to font
+-> done: ScaleConfiguration.AddDescription() (5.9s)
+Then Save the font with data
+-> done: ScaleConfiguration.SaveFont() (3.7s)
+Then Close the font
+-> done: ScaleConfiguration.CloseFont() (4.2s)
+Then Publish the PF
+-> done: ScaleConfiguration.PublishthePF() (5.0s)
+Then Select the Store
+-> done: ScaleConfiguration.SelectStore() (3.0s)
+And user navigates to SR application
+-> done: HQLoginSteps.ThenUserNavigatesToSRApplication() (6.5s)
+When enter valid '<username>', '<hqpassword>'
+-> done: HQLoginSteps.WhenEnterValid("<username>", "<hqpassword>") (0.7s)
+And Clicks on Login button of SR app
+-> done: HQLoginSteps.WhenClicksOnLoginButtonOfSRApp() (12.2s)
+When User clicks on the Left Menu
+-> done: ScaleConfiguration.WhenUserClicksOnTheLeftMenu() (8.6s)
+Then menu should be displayed
+-> done: ScaleConfiguration.ThenMenuShouldBeDisplayed() (0.0s)
+When User enters Scale Configuration in the Search Box
+-> done: ScaleConfiguration.WhenUserEntersScaleConfigurationInTheSearchBox() (2.5s)
+Then Scale Configuration Item should be displayed on the Menu
+-> done: ScaleConfiguration.ThenScaleConfigurationItemShouldBeDisplayedOnTheMenu() (2.0s)
+Then navigate to verify Tare '10' and 'Penuts'
+-> done: ScaleConfiguration.ThenNavigateToVerifyTareAnd("10", "Penuts") (10.1s)
+Then navigate to verify Content Symbol '27' and 'G'
+-> done: ScaleConfiguration.ThenNavigateToVerifyContentSymbolAnd("27", "G") (19.9s)
+Then navigate to verify Preset Messages '67' and 'Minerals Qty'
+-> done: ScaleConfiguration.ThenNavigateToVerifyPresetMessagesAnd("67", "Minerals Qty") (25.0s)
+Then navigate to verify Print Format '12' and 'OpenSansBiscuits'
+-> error: element not interactable
+  (Session info: chrome=105.0.5195.102) (11.8s)
